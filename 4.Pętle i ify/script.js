@@ -120,5 +120,59 @@ for (var i = 0; i < 5; i++)
   }
 
 //c
+var counter = 4;
+for (var i = 0; i < 5; i++)
+  {
+    var row =''
+    for (var j=0; j < counter; j++ )
+      {
+        row += ' '
+      }
+  for (var b = 0; b < (i*2)+1; b++)
+  {
+    row += '*'
+  }
+  console.log(row)
+    counter--
+  }
 //d
+/*1234
+for(let x = 0; x < 5; x++) 
+{
+    var result = '';
+    for(y = 0; y < x+1; y++) 
+      {
+        result += '*';
+      }
+    for(z = 0; z <  5; z++)
+    {
+        if(x < z) {
+          result += z
+        }
+    }
+    console.log(result);
+
+}
+*/
+/* ****
+for(let x = 0; x < 5; x++) 
+{
+    var result = '';
+   
+    for(z = 0; z <  5; z++)
+    {
+        if(x <= z) {
+          result += '*'
+        } 
+    }
+  const resultLength = result.length -1
+  
+  for(var b = 1; b<= x; b++) {
+    result += resultLength + b
+  } 
+    console.log(result);
+
+}
+*/
+
 //e
