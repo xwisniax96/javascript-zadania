@@ -165,9 +165,9 @@ for(let x = 0; x < 5; x++)
           result += '*'
         } 
     }
-  const resultLength = result.length -1
+  const resultLength = result.length 
   
-  for(var b = 1; b<= x; b++) {
+  for(var b = 0; b< x; b++) {
     result += resultLength + b
   } 
     console.log(result);
