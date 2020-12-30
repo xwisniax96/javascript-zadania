@@ -177,7 +177,6 @@ for(let x = 0; x < 5; x++)
 
 //e
 
-Jimena wysłał(a) Dzisiaj o 19:06
 var counter = 4;
 for (var i = 0; i < 8; i++)
   {
