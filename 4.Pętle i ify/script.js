@@ -103,21 +103,22 @@ for (let i = 1; i <= 5; i++)
 }
 
 //b
-let star = ' *';
-
-for(let x = 0; x < 5; x++) 
-{
-    var result = '';
-    for(y = 0; y < 5 - x; y++) 
+var counter = 4;
+for (var i = 0; i < 5; i++)
+  {
+    var row =''
+    for (var j=0; j < counter; j++ )
       {
-        result += ' ';
+        row += ' '
       }
-    for(z = 0; z <  x + 1; z++)
-    {
-        result += star;
-    }
-    console.log(result);
-}
+  for (var b = 0; b < i+1; b++)
+  {
+    row += '* '
+  }
+  console.log(row)
+    counter--
+  }
+
 //c
 //d
 //e
