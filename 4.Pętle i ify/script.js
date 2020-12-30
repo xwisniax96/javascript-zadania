@@ -176,3 +176,24 @@ for(let x = 0; x < 5; x++)
 */
 
 //e
+
+Jimena wysłał(a) Dzisiaj o 19:06
+var counter = 4;
+for (var i = 0; i < 8; i++)
+  {
+    var row =''
+    if(i < 5){
+    for (var j=0; j < counter; j++ )
+      {
+        row += ' '
+      }
+  for (var b = 0; b < i+1; b++)
+  {
+    row += '* '
+  }
+    } else {
+      row += '    *'
+    }
+  console.log(row)
+    counter--
+  }
