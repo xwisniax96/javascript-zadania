@@ -1,5 +1,5 @@
 //1
-
+//*
 const person = 
   {
     name:"Przemek",
@@ -35,9 +35,44 @@ console.log(person.showText());
 person.addAge();
 person.addAge();
 console.log(person.showText());
-
+*//
 
 //2
+const person = 
+  {
+    name:"Przemek",
+    surname:"P",
+    age:24,
+    country:"Polska",
+    city:"Krakow",
+    showText() 
+    {
+        return this.name+ " " +this.surname+" "+ this.age+" "+this.country+" "+this.city;
+    },
+  addAge()
+  {
+    this.age++;
+  }
+}
+const person2 = 
+  {
+    name:"Adam",
+    surname:"A",
+    age:20,
+    country:"Polska",
+    city:"Torun",
+    showText() 
+    {
+        return this.name+ " " +this.surname+" "+ this.age+" "+this.country+" "+this.city;
+    },
+  addAge(){
+    this.age++;
+  }
+}
+console.log(person.showText());
+person.addAge();
+person.addAge();
+console.log(person.showText());
 person.food = new Array();
   person.showFood = function() {
     console.log(this.food);
